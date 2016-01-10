@@ -1,0 +1,64 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<title>JSXDOM Test</title>
+
+</head>
+<body>
+	
+	<h1>test</h1>
+
+</body>
+<script src="jsxdom.js" type="text/javascript" charset="utf-8"></script>
+<script src="./lib/test.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+
+
+
+
+
+
+
+
+
+var defaultValue = "Fill me please ...";
+
+//This works when JSXDOM is declared inline
+//var markup = this.JSXDOM('input', { type: 'text', value: defaultValue }); 
+
+//var markup = JSXDOM.input({ type: 'text', value: defaultValue });
+//var markup = JSXDOM("input", { type: "text", value: defaultValue });
+
+/*
+"use strict";
+
+var defaultValue = "Fill me ...";
+
+document.body.appendChild(JSXDOM(
+  "div",
+  null,
+  JSXDOM("input", { type: "text", value: defaultValue }),
+  JSXDOM(
+    "button",
+    { onclick: "alert('clicked!');" },
+    "Click Me!"
+  ),
+  JSXDOM(
+    "ul",
+    null,
+    ['un', 'deux', 'trois'].map(function (number) {
+      return JSXDOM(
+        "li",
+        null,
+        number
+      );
+    })
+  )
+));
+*/
+
+
+
+</script>
+</html>
