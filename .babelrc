@@ -1,4 +1,4 @@
 {
-  "plugins": ["syntax-jsx","transform-react-jsx"],
+  "plugins": ["transform-react-jsx"],
 }
 

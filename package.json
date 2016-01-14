@@ -4,7 +4,7 @@
   "description": "Sample project to use JSX with babel instead of templating engine",
   "main": "index.html",
   "scripts": {
-		"build": "babel src -d lib",
+		"build": "babel src --out-file script-compiled.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alper Sunar",
